@@ -437,7 +437,7 @@ body {
 
 @media(max-width: 1000px){
     .container-1{
-        border: 2px solid red;
+        /* border: 2px solid red; */
         flex-direction: column-reverse;
         align-items: center;
         padding: 1rem;
