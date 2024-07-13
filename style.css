@@ -169,6 +169,7 @@ body {
 
 .card:hover .layer {
     height: 100%;
+    cursor: pointer;
 }
 
 .dot-container {
@@ -254,6 +255,7 @@ body {
     div:hover {
         border-radius: 20px;
         box-shadow: 0 0 50px rgb(159, 159, 159);
+        cursor: pointer;
     }
 }
 
@@ -306,6 +308,7 @@ body {
         &>div:hover {
             background-color: #ff3147;
             color: white;
+            cursor: pointer;
         }
         &>div.selected{
             background-color: #ff3147;
@@ -478,6 +481,28 @@ body {
         align-items: center;
         padding: 1rem;
         /* border: 2px solid red; */
+    }
+    .layer{
+        text-align: center;
+        align-items: center;
+        padding: .5rem;
+        img{
+            height: 20px;
+            width: 20px;
+        }
+        h3{
+            font-size: 2vw;
+            
+        }
+        p{
+            font-size: 1.5vw;
+        }
+        button{
+            font-size: 1.5vw;
+            svg{
+                width: 15px;
+            }
+        }
     }
 
     .container-4{
